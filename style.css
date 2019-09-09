@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  list-style: none;
+  height: 70px;
+  line-height: 60px;
+  background-color: blue;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  width: 100px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  transition: transform 1s ease-in-out;
+}
+
+ul li a:hover {
+  transform: rotate(360deg);
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.story {
+  margin-top: 70px;
+  background-color: bisque;
+  text-align: center;
+}
